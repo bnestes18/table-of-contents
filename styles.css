@@ -1,0 +1,13 @@
+body {
+    margin: 1em auto;
+    max-width: 40em;
+    width: 88%;
+}
+
+a {
+    display: block;
+}
+
+h2:target {
+    background-color: salmon;
+}
