@@ -15,7 +15,7 @@
         tableOfContents.innerHTML = '<h2>Table of Contents</h2>' +
         '<ol>' + h2Elements.map(function (h2Elem) {
             // check if h2 has an id
-            // if not, (length === 0), then set the id to the name of the heading
+            // if not, (length === 0), then set the id to the name of the heading and format
                 if (h2Elem.id.length === 0) {
                     h2Elem.setAttribute('id', h2Elem.textContent.toLowerCase());
                     h2Elem.id = formatAttr(h2Elem.id);
